@@ -1,0 +1,41 @@
+html {
+	font-size: 16px;
+}
+header {
+	width: 1376px;
+	height: 50px;
+	background-color: grey;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+
+	
+}
+.main {
+	width: 1376px;
+	display: flex;
+	margin-top: 50px;
+
+}
+.main-block {
+	width: 30%;
+	background-color: grey;
+	margin: 0 auto;
+	color: white;
+}
+@media screen and (max-width: 768px) {
+	header {
+		width: 768px;
+		font-size: 30px;
+
+	}
+	.main {
+		display: block;
+		width: 768px;
+
+	}
+	.main-block {
+		margin-top: 50px;
+		font-size: 1.5rem;
+	}
+}
